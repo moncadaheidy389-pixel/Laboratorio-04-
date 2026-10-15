@@ -1,8 +1,10 @@
 public class Movimiento {
-    private String tipo;        // ← Agrega esta línea
-    private double monto;       // ← Agrega esta línea
+    // ← Agrega estas 3 líneas que faltan arriba de todo
+    private String tipo;
+    private double monto;
     private String descripcion;
 
+    // ← Tu constructor debe estar así
     public Movimiento(String tipo, double monto, String descripcion) {
         this.tipo = tipo;
         this.monto = monto;
